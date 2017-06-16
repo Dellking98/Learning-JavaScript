@@ -11,3 +11,10 @@ if( period != "PM" ){
   else {
     console.log("It's just after 7 in the evening");
   }
+
+
+function myAge(){
+  console.log ("500 and 25000");
+}
+
+myAge();
