@@ -37,3 +37,24 @@ console.log(threeWheels);
 var undefined;
 
 console.log(undefined);
+
+//   console.log(name[i]);
+// }
+  // var num = [0,1,2,3]
+  // for (var x = 0; x < name.length; x++){
+  //   console.log(num[x]);
+  // }
+    // var text = num[x] + " " + "->" + name[i];
+    //
+    // return(text);
+
+
+
+// var myFriend = {
+// 	  fristName: "Jame",
+//     lastName: "Doe",
+//     fullName1: function(){
+//     return this.firstName + " " + "->" + this.lastName;
+// }
+//
+// myFriend();

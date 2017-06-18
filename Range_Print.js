@@ -10,20 +10,14 @@ function rangePrint(Start, End, Skip){
 rangePrint(2,10,2);
 
 
+function greetSomeone(person)
+{
+  if (person == "Martin") {
+    console.log("Yo dawg, howz it goin?");
+  }
+  else {
+    console.log("Greetings Earthling!");
+  }
+}
 
-
-
-
-// rangePrint(2,10,2);
-//
-// function greetSomeone(person)
-// {
-//   if (person == "Martin") {
-//     console.log("Yo dawg, howz it goin?");
-//   }
-//   else {
-//     console.log("Greetings Earthling!");
-//   }
-// }
-//
-// greetSomeone("Martin");
+greetSomeone("Martin");
