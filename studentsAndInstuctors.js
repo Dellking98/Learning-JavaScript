@@ -20,7 +20,7 @@ function students1() {
 
 
    function functionName1() {
-        var i, s, x= "";
+
      var users = {
       'Students': [
           {first_name:  'Michael', last_name : 'Jordan'},
@@ -33,14 +33,12 @@ function students1() {
           {first_name : 'Martin', last_name : 'Puryear'}
        ]
       }
-   for(i in users.Students){
-     x += "1 -" + users.Students[i].first_name ;
-      for(s in users.Students[i].last_name){
-        s += users.Students[i].last_name ;
-            }
+   for( var i in users){
+
+    console.log( users[i] );
 
    }
-    console.log( users.Students[i]);
+
  }
 
 functionName1();
